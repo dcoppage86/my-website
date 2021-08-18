@@ -1,20 +1,20 @@
 body {
-  background-color: #282c34;
-  color: black;
+  background-color: black;
+  color: white;
   padding: 0px;
   font-family: Arial;
   text-align: center;
 }
 
-nav {
+.nav-bar {
   background-color: yellow;
-  position: fixed;
 }
 
 .footer{
   margin-top: 1rem;
   padding: 1rem;
   background-color: yellow;
+  color: black;
   position: fixed;
   bottom: 0;
   left: 0;
