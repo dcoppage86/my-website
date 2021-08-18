@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import NavigationBar from './components/NavigationBar';
-import './App.css'
+
 
 
 function App() {
   return (
     <Router>
+      <NavigationBar/>
       <div className="App">
-          <NavigationBar/>
           <h1>Hello world</h1>
           <Switch>
             <Route exact path="/"/>

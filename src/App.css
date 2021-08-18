@@ -1,7 +1,13 @@
-* {
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 0px;
+  font-family: Arial;
+  text-align: center;
+}
+
+nav {
   background-color: yellow;
+  position: fixed;
 }
 
-.nav-bar {
-
-}
