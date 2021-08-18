@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import NavigationBar from './components/NavigationBar';
+import Footer from './components/Footer';
 
 
 
@@ -16,6 +17,7 @@ function App() {
             <Route exact path="/contact"/>
           </Switch>
       </div>
+      <Footer />
     </Router>
   );
 }
