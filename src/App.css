@@ -21,3 +21,21 @@ body {
   width: 100%;
 }
 
+.home-container {
+  padding: 5rem
+}
+
+.p {
+  color: white
+}
+
+.welcome {
+  justify-content: center;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.dakota {
+  color: yellow
+}
+
