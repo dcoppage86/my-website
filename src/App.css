@@ -30,12 +30,40 @@ body {
 }
 
 .welcome {
-  justify-content: center;
+  justify-content: right;
   font-size: 3rem;
   text-align: left;
 }
 
 .dakota {
   color: yellow
+}
+
+.skill-card {
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 0;
+  margin: 1px;
+  height: 4rem;
+  width: 16rem;
+  background-color: grey;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.card-image {
+  object-fit: contain;
+  object-position:left;
+  padding: 4px;
+  width: 50%;
+  height: 100%
+
+}
+
+.card-content {
+  font-size: 14px;
+  color: black;
+  padding-top: 1rem;
+  padding-left: 1px;
 }
 

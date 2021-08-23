@@ -1,17 +1,37 @@
+
 [
     {
         "id": 1,
-        "name": "Ruby on Rails"
+        "name": "Ruby on Rails",
+        "image_url": "https://rubyonrails.org/images/rails-logo.svg"
 
     },
     {
         "id": 2,
-        "name": "JavaScript"
+        "name": "JavaScript",
+        "image_url": "https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png"
 
     },
     {
         "id": 3,
-        "name": "React"
+        "name": "React",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png"
 
+    },
+    {
+        "id": 4,
+        "name": "Redux",
+        "image_url": "https://img.icons8.com/ios/50/000000/redux.png"
+    },
+    {
+        "id": 5,
+        "name": "Bootstrap",
+        "image_url": "https://www.logo.wine/a/logo/Bootstrap_(front-end_framework)/Bootstrap_(front-end_framework)-Logo.wine.svg"
+    },
+    {
+        "id": 6,
+        "name": "Styled Components",
+        "image_url": "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png"
     }
+
 ]
