@@ -8,10 +8,10 @@ function Home() {
     return (
         <Container className="home-container">
             <Row>
-                <Col Image>
+                <Col Image className="avatar">
                     <Image src={dakota} roundedCircle />
                 </Col>
-                <Col md={4}>
+                <Col md={6}>
                     <h1 className="welcome">
                         HI, I'M <strong className="dakota">DAKOTA</strong>,
                         <br></br>
@@ -23,7 +23,7 @@ function Home() {
             </Row>
             <br></br>
             <br></br>
-            <Row>
+            <Row className="card-container">
                 <SkillsCard/>
             </Row>
         </Container>
