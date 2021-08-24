@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "repo": "https://github.com/dcoppage86/big-u-frontend",
+        "video_url": "https://www.youtube.com/watch?v=2LpKNqc4ohQ"
+    },
+    {
+        "id": 2,
+        "repo": "https://github.com/dcoppage86/big-me",
+        "video_url": "https://www.youtube.com/watch?v=mDPhgy0U8Q0"
+    },
+    {
+        "id": 3,
+        "repo": "https://github.com/dcoppage86/hana",
+        "video_url": "https://www.youtube.com/watch?v=ypP21Ka1LdU"
+    },
+    {
+        "id": 4,
+        "repo": "https://github.com/dcoppage86/Vinylogger",
+        "video_url": "https://www.youtube.com/watch?v=HobMYG0q7uU&t=145s"
+    },
+    {
+        "id": 5,
+        "repo": "https://github.com/dcoppage86/shoegaze_legends",
+        "video_url": "https://www.youtube.com/watch?v=J_QmUQaGFHY"
+    }
+
+]
