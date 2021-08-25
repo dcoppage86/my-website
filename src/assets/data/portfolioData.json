@@ -2,27 +2,32 @@
     {
         "id": 1,
         "repo": "https://github.com/dcoppage86/big-u-frontend",
-        "video_url": "https://www.youtube.com/watch?v=2LpKNqc4ohQ"
+        "video_url": "https://www.youtube.com/watch?v=2LpKNqc4ohQ",
+        "content": "React/Redux w/ Rails Backend"
     },
     {
         "id": 2,
         "repo": "https://github.com/dcoppage86/big-me",
-        "video_url": "https://www.youtube.com/watch?v=mDPhgy0U8Q0"
+        "video_url": "https://www.youtube.com/watch?v=mDPhgy0U8Q0",
+        "content": "JavaScript w/ Rails Backend"
     },
     {
         "id": 3,
         "repo": "https://github.com/dcoppage86/hana",
-        "video_url": "https://www.youtube.com/watch?v=ypP21Ka1LdU"
+        "video_url": "https://www.youtube.com/watch?v=ypP21Ka1LdU",
+        "content": "Ruby on Rails"
     },
     {
         "id": 4,
         "repo": "https://github.com/dcoppage86/Vinylogger",
-        "video_url": "https://www.youtube.com/watch?v=HobMYG0q7uU&t=145s"
+        "video_url": "https://www.youtube.com/watch?v=HobMYG0q7uU&t=145s",
+        "content": "Sinatra"
     },
     {
         "id": 5,
         "repo": "https://github.com/dcoppage86/shoegaze_legends",
-        "video_url": "https://www.youtube.com/watch?v=J_QmUQaGFHY"
+        "video_url": "https://www.youtube.com/watch?v=J_QmUQaGFHY",
+        "content": "Ruby CLI"
     }
 
 ]

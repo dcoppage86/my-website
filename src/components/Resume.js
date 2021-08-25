@@ -1,9 +1,10 @@
 import React from 'react'
+import resume from '../assets/images/resume.png'
 
 function Resume() {
     return (
-        <div>
-            <h1>Hello Resume</h1>
+        <div className="resume-div">
+            <img src={resume} className="resume" alt="Dakota Resume"/>
         </div>
     )
 }

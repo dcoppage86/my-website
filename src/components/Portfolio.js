@@ -1,10 +1,14 @@
 import React from 'react'
+import { Container, Row } from 'react-bootstrap'
+import PortfolioCard from './PortfolioCard'
 
 function Portfolio() {
     return (
-        <div>
-            <h1>Hello Portfolio</h1>
-        </div>
+        <Container className="portfolio-container">
+            <Row>
+                <PortfolioCard/>
+            </Row>
+        </Container>
     )
 }
 

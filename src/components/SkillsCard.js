@@ -9,9 +9,7 @@ const SkillsCard = () => {
             <Card.Img className="card-image" src={skill.image_url} />
             <Card.Title className="card-content">{skill.name}</Card.Title>
         </Card>)
-
     )
-    
 }
 
 export default SkillsCard;
