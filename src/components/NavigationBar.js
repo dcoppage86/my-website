@@ -16,8 +16,6 @@ const NavigationBar = () => {
                 <Nav.Link as={Link} activeClassName="underline" exact to="/portfolio">PORTFOLIO</Nav.Link>
                 <br></br>
                 <Nav.Link as={Link} activeClassName="underline" exact to="/resume">RESUME</Nav.Link>
-                <br></br>
-                <Nav.Link as={Link} activeClassName="underline" exact to="/contact">CONTACT</Nav.Link>
             </Nav>
             <Navbar.Brand className="navbar-brand" href="https://github.com/dcoppage86"><FaGithub size={28}/></Navbar.Brand>
             <Navbar.Brand className="navbar-brand" href="https://www.linkedin.com/in/dkc86"><FaLinkedin size={28}/></Navbar.Brand>
