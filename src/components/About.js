@@ -1,4 +1,5 @@
 import React from 'react';
+import Family from '../assets/images/Family.JPG'
 
 const About = () => {
     return (
@@ -13,6 +14,7 @@ Dolore aliquip excepteur et minim. Sunt sit in do ad incididunt Lorem sit. Duis 
 Ut duis excepteur laboris excepteur proident voluptate. Cupidatat enim incididunt commodo nulla est dolore sint. Aute consequat veniam do Lorem anim ad. Ut dolor reprehenderit sunt ullamco deserunt incididunt aliqua occaecat id ex. Nostrud consectetur do ad officia excepteur anim voluptate quis sit pariatur enim.
 
 Ullamco deserunt commodo nostrud ex elit cillum. Proident duis aute ea excepteur nostrud laborum eiusmod consequat elit Lorem consequat. Proident sunt id magna cillum amet officia qui. Incididunt cillum minim esse cillum qui ut. Non commodo excepteur anim proident commodo irure sit cillum nostrud est ipsum. Labore velit dolore et nostrud.</p>
+        <img src={Family} alt="family"/>
         </div>
     );
 }
