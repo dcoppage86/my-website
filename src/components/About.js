@@ -7,13 +7,10 @@ const About = () => {
             <h1>A Little About Me</h1>
             <br></br>
             <br></br>
-            <p className="about-content">Duis incididunt esse non elit ullamco labore et veniam nulla. Sit id culpa officia non magna culpa et dolor ea cupidatat. Dolor non ullamco velit eiusmod do enim est excepteur adipisicing aliquip. Qui non est cupidatat id duis voluptate in. Adipisicing enim Lorem dolor minim. Eu tempor laboris anim do aliquip eu cupidatat eiusmod sunt.
-
-Dolore aliquip excepteur et minim. Sunt sit in do ad incididunt Lorem sit. Duis ipsum officia exercitation sunt occaecat exercitation laboris dolor esse nisi non. Commodo ex elit Lorem ex. Lorem et proident non sit culpa in dolore quis deserunt reprehenderit et minim veniam minim. Dolor sunt irure sint et magna voluptate magna ex non. Amet sit officia aliqua veniam veniam ut enim laboris tempor sint duis adipisicing labore exercitation.
-
-Ut duis excepteur laboris excepteur proident voluptate. Cupidatat enim incididunt commodo nulla est dolore sint. Aute consequat veniam do Lorem anim ad. Ut dolor reprehenderit sunt ullamco deserunt incididunt aliqua occaecat id ex. Nostrud consectetur do ad officia excepteur anim voluptate quis sit pariatur enim.
-
-Ullamco deserunt commodo nostrud ex elit cillum. Proident duis aute ea excepteur nostrud laborum eiusmod consequat elit Lorem consequat. Proident sunt id magna cillum amet officia qui. Incididunt cillum minim esse cillum qui ut. Non commodo excepteur anim proident commodo irure sit cillum nostrud est ipsum. Labore velit dolore et nostrud.</p>
+            <p className="about-content">I bring with a decade of customer service experience, time management, efficiency and the ability to learn quickly. 
+            I am a husband and father to four beautiful children, who strengthen me and give me all the drive I need to work diligently toward my goals. After years of cutting hair, I was ready for
+            a change. During the height of the pandemic I chose to make the leap into Software Development. Entering into Flatiron School's Full-Stack Software Engineering program my love for coding grew exponentially. </p>
+            <p className="about-content">I am lover of all things cinema, an avid audiophile and strict black coffee drinker. I have one dog and looking to grow that part of my family as well. Always trust a dog person...I say.</p>
         <img className="family-photo" src={Family} alt="family"/>
         </div>
     );
