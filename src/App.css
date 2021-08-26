@@ -164,6 +164,13 @@ width: 100%;
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
+.about-content {
+  justify-content: center;
+  text-align: justify;
+  text-indent: 50px;
+  word-spacing: initial;
+}
+
 .contact-div {
   padding: 25%;
   color: black;
