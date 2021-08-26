@@ -130,6 +130,7 @@ width: 100%;
 
 .portfolio-div {
   display: flex;
+  padding-left: 17%;
   flex-direction: column;
   justify-content: center;
   width: fit-content;
@@ -138,14 +139,25 @@ width: 100%;
 }
 
 .portfolio-container {
-  padding-top: 5%;
+  padding: 5%;
   -webkit-animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
           animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
 .port-repo {
   color: white;
-  text-align: right;
+  text-align: center;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 5px;
+  width: 25%;
+  justify-content: center;
+}
+
+.port-repo:hover {
+  color: black;
+  border-color: yellow;
+  background-color: yellow;
 }
 
 .resume-div {

@@ -32,6 +32,20 @@
         "id": 6,
         "name": "Styled Components",
         "image_url": "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png"
+    },
+    {
+        "id": 7,
+        "name": "Git",
+        "image_url": "https://i.ibb.co/p1bvYX6/clipart2181371.png"
+    },
+    {
+        "id": 8,
+        "name": "PostgreSQL",
+        "image_url": "https://i.ibb.co/sv7MPKB/kisspng-postgresql-database-installation-microsoft-sql-ser-bearle-5b7719c74d6f48-1109325915345320393.png"
+    },
+    {
+        "id": 9,
+        "name": "SQLite3",
+        "image_url": "https://i.ibb.co/PGMYcpx/pngegg.png"
     }
-
 ]
