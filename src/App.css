@@ -158,6 +158,7 @@ width: 100%;
   color: black;
   border-color: yellow;
   background-color: yellow;
+  cursor: pointer;
 }
 
 .resume-div {
