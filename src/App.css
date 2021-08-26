@@ -85,6 +85,7 @@ width: 100%;
 
 .avatar {
   justify-content: left;
+  max-width: 100%;
   -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 	        animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
