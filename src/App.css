@@ -152,6 +152,18 @@ width: 100%;
   padding: 5%;
 }
 
+.about-div {
+  padding: 10%;
+}
+
+.family-photo {
+  padding: 5%;
+  max-width: 50%;
+  height: auto;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
 .contact-div {
   padding: 25%;
   color: black;
