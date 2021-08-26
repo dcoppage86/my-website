@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio'
 
 
 
+
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
             <Route exact path="/" component={Home}/>
             <Route exact path="/Resume" component={Resume}/>
             <Route exact path="/portfolio" component={Portfolio}/>
+            <Route exact path="/about" component={About}/>
           </Switch>
       <Footer />
       </div>
