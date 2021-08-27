@@ -72,7 +72,7 @@ width: 100%;
 }
 
 .p {
-  color: white
+  color: lightgray
 }
 
 .welcome {
@@ -105,7 +105,7 @@ width: 100%;
   margin: 5px;
   height: 4rem;
   width: 16rem;
-  background-color: white;
+  background-color: lightgray;
   justify-content: space-between;
   padding: 4px;
   box-shadow: 1px 1px 2px yellow;
@@ -146,7 +146,7 @@ width: 100%;
 }
 
 .port-repo {
-  color: white;
+  color: lightgray;
   text-align: center;
   border-style: solid;
   border-width: 4px;
