@@ -7,8 +7,10 @@ const PortfolioCard = () => {
     return (
         portfolioData.map(portData => 
                 <div className="portfolio-div">
-                    <p>{portData.content}</p>
-                    <ReactPlayer className="port-video" width="640px" height="480px" url={portData.video_url}/>
+                    <p className="port-content">{portData.content}</p>
+                    <div className="player-wrapper">
+                        <ReactPlayer className="react-player" width="100%" height="100%" url={portData.video_url}/> 
+                    </div>
                     <br></br>
                     <p className="port-repo" href={portData.repo}>Github</p>
                 </div>)
