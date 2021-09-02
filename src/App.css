@@ -71,6 +71,7 @@ width: 100%;
 .home-container {
   display: flex;
   flex-wrap: wrap;
+  flex-shrink: 1;
   justify-content: center;
   max-width: 100%;
   height: auto;
@@ -91,7 +92,7 @@ width: 100%;
 .welcome {
   justify-content: center;
   padding: 10%;
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
   font-size: 5rem;
   text-align: left;
@@ -556,7 +557,8 @@ width: 100%;
   }
 }
 
-/* @viewport {
+
+@viewport {
   width: device-width;
-  zoom: 2;
-} */
+  zoom: 1;
+}
