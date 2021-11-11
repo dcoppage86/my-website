@@ -16,7 +16,7 @@ const Project = () => {
                     <div className="player-wrapper">
                         <ReactPlayer className="react-player" width="100%" height="100%" url={portData.video_url}/> 
                     </div>
-                    <a className="port-repo" href={portData.repo} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} style={{height: 50, width: 50}}/></a>
+                    <a className="port-repo" href={portData.repo} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} style={{height: 25, width: 25}}/></a>
                 </div>)}
             </div>
             

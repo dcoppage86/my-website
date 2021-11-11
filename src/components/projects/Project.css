@@ -30,15 +30,17 @@
 }
 
 .port-content {
-  font-weight: bold;
+  border-style: solid;
+  border: 1px solid gray;
+  background-color: gray;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .port-repo {
-  /* border: 1px solid #8a1a1a;
-  background-color: #8a1a1a; */
+  width: 100%;
   border-radius: 2px;
   color: black;
   display: flex;
