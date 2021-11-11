@@ -2,8 +2,11 @@ import React from 'react'
 import "./About.css"
 import Family from '../../assets/images/Family.JPG'
 import FS_Cert from '../../assets/images/FS_Cert.jpg'
+import Image from "react-image-enlarger"
 
 function About() {
+    const [zoomed, setZoomed] = React.useState(false)
+
     return (
         <div className="a">
             <div className="a-left">
@@ -23,7 +26,15 @@ function About() {
                     that improve people's lives or at least put a smile on their faces. 
                 </p>
                 <div className="a-certification">
-                    <img src={FS_Cert} alt="Flatiton School Certification" className="a-cert-img" />
+                    <Image 
+                    src={FS_Cert} 
+                    alt="Flatiton School Certification" 
+                    className="a-cert-img"
+                    zoomed={zoomed}
+                    onClick={() => setZoomed(true)}
+                    onRequestClose={() => setZoomed(false)}
+
+                    />
                     <div className="a-cert-text">
                         <h4 className="a-cert-title">Flatiron School Certification</h4>
                         <p className="a-cert-description">  I am a certified Full Stack Web Software Engineer</p>
