@@ -1,8 +1,6 @@
 import React from 'react'
 import './Intro.css'
-import DakotaIMG4 from '../../assets/images/DakotaIMG4.png'
 import DKCDEV from '../../assets/images/DKCDEV.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Intro = () => {
   return (

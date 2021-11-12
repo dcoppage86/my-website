@@ -12,7 +12,7 @@ function About() {
             <div className="a-left">
                 <div className="a-card bg"></div>
                 <div className="a-card">
-                    <img src={Family} alt="Family Photo" className="a-img" />
+                    <img src={Family} alt="Family" className="a-img" />
                 </div>
             </div>
             <div className="a-right">

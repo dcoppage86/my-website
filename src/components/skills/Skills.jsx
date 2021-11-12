@@ -3,7 +3,6 @@ import '../skills/Skills.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faHtml5, faReact, faCss3Alt, faJsSquare, faGitAlt, faNodeJs} from '@fortawesome/free-brands-svg-icons'
 import { SiRubyonrails, SiRedux, SiBootstrap, SiPostgresql} from 'react-icons/si'
-import SkillsBackground from '../../assets/images/SkillsBackground.jpg'
 
 
 function Skills() {
