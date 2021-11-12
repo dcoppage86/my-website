@@ -97,6 +97,10 @@ button {
     font-size: 30px;
   }
 
+  .c-background {
+    height: 80%;
+  }
+
   .c-info-item {
     margin: 20px 0px;
     width: 100%;
