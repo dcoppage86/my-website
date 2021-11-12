@@ -1,0 +1,38 @@
+.r {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8a1a1a;
+}
+
+.resume-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+}
+
+.resume-btn {
+  background-color: #fff;
+  color: #8a1a1a;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.resume-btn:hover {
+  background-color: #8a1a1a;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .r {
+    margin-top: 750px;
+  }
+} ;
