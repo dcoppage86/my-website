@@ -70,6 +70,10 @@
     padding-top: 100px;
   }
 
+  .port-repo {
+    text-decoration: none;
+  }
+
   .p-wrapper {
     height: 30vh;
   }
