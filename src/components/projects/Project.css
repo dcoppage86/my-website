@@ -1,6 +1,8 @@
 .p {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
+  width: 95%;
+  margin: 0 auto;
   flex-direction: column;
 }
 
@@ -14,38 +16,30 @@
 }
 
 .p-wrapper {
-  width: 100%;
-  height: 100%;
-  padding-left: 70px;
-  padding-right: 70px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-}
-
-.portfolio-div {
-  padding-bottom: 10px;
+  gap: 4rem;
+  justify-content: center;
 }
 
 .port-content {
-  border-style: solid;
-  border: 1px solid gray;
-  background-color: gray;
-  border-radius: 5px;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+.portfolio-div {
+  flex: 0 0 300px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.24);
+  border-radius: 0.5rem;
 }
 
 .port-repo {
-  width: 100%;
-  border-radius: 2px;
   color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .port-repo:hover {
@@ -54,27 +48,16 @@
   cursor: pointer;
 }
 
-.player-wrapper {
-  width: 100%;
-  height: 100%;
-}
-
 @media screen and (max-width: 480px) {
   .p {
     flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
-  }
-
-  .p-header {
-    padding-top: 100px;
-  }
-
-  .port-repo {
-    text-decoration: none;
   }
 
   .p-wrapper {
-    height: 30vh;
+    justify-content: center;
+  }
+
+  .portfolio-div {
+    flex: 0 0 350px;
   }
 }
