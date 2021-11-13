@@ -11,8 +11,15 @@
 }
 
 .i-right {
+  background-color: #8a1a1a;
   flex: 1;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.i-right img {
+  max-width: 100%;
 }
 
 .i-left-wrapper {
@@ -71,22 +78,6 @@
   height: 30px;
   position: absolute;
   bottom: 20px;
-}
-
-.i-img {
-  width: 100%;
-  height: 100%;
-  background-color: #8a1a1a;
-  object-fit: cover;
-  position: absolute;
-}
-
-.i-background {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 @media screen and (min-width: 300px) and (max-width: 767px) {

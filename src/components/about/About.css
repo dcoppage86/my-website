@@ -1,6 +1,8 @@
 .a {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
+  width: 95%;
+  margin: 0 auto;
   align-items: center;
 }
 
